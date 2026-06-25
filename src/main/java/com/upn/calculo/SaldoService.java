@@ -1,6 +1,6 @@
 package com.upn.calculo;
 
 public class SaldoService {
-	private doubl saldo;
+	private double saldo;
 
 }

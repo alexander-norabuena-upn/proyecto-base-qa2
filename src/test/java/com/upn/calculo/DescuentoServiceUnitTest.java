@@ -8,7 +8,7 @@ public class DescuentoServiceUnitTest {
     private final DescuentoService servicio = new DescuentoService();
 
     @Test
-    public void testDescuentoMaximo() {
+    public voi testDescuentoMaximo() {
         double descuento = servicio.calcularDescuentoMonto(1000);
         assertEquals(150.0, descuento, "El descuento para 1000 debería ser el 15% (150)");
     }
